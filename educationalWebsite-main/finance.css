@@ -1,0 +1,41 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-wrap: wrap;
+}
+
+.column1, .column2, .column3, .column4 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 20px;
+}
+
+.column1, .column2, .column3, .column4 {
+    height: 100%;
+}
+
+.fin1, .fin2, .share, .bus1, .trade, .stock, .stock1 {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin: 15px;
+    height: 150px;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    text-align: center;
+    border-radius: 10px;
+}
+
+h2 {
+    margin: 10px;
+}
